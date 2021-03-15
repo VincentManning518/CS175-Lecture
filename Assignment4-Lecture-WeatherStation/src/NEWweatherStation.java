@@ -13,7 +13,7 @@ public class NEWweatherStation {
 		System.out.print("Would you like to input a weather reading? Y/N: ");
 		decision = in.next();
 		
-		if (decision.contains("Y"))
+		if (decision.equals("Y"))
 		{
 			double temp;
 			int windspeed;
