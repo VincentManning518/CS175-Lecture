@@ -21,6 +21,13 @@ public class Assignment3 {
 		System.out.print("The cirucmference of the circle is: ");
 		System.out.println(circ);
 		
+		double SurArea = 4 * Math.PI * radius * radius;
+		double volume = (4/3) * Math.PI * Math.pow(radius, 3);
+		
+		System.out.println("The Surface area of the sphere is: " + SurArea);
+		System.out.println("The Volume of the sphere is: " + volume);
+
+		
 		
 	// #5:
 		
